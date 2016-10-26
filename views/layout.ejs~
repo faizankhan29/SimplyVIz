@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Home</title>
+<script type="text/javascript" src="d3/d3.min.js"></script>
+</head>
+<body>
+<h2>Welcome to SimplyViz!	</h2>
+<h3>Your simple data visualisation tool</h3><br>
+<h3>Choose a type of visualisation:</h3>
+<li>
+<ol><a href="/bar">Bar Graph</a></ol>
+<ol><a href="/line">Line Graph</a></ol>
+<ol><a href="/scatterplot">Scatterplot</a></ol>
+<ol><a href="/radarchart">Radarchart</a></ol>
+</li>
+</body>
+</html>

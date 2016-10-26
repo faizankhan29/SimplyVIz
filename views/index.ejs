@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Home</title>
+<script type="text/javascript" src="d3/d3.min.js"></script>
+<style>
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+
+</head>
+<body>
+<h2>Welcome to SimplyViz!	</h2>
+<h3>Your simple data visualisation tool</h3><br>
+<h3>Choose a type of visualisation:</h3>
+<ul>
+<!--li><div class="dropdown">
+<a href="/line">Line Graph</a>
+<div class="dropdown-content">
+<form method="post">
+<p>Enter height:</p>
+<input type="text" name="LineHeight"><br>
+<p>Enter width:</p>
+<input type="text" name="LineWidth"><br>
+<!--p>Enter x data coordinate:</p>
+<input type="text" name="data1"><br>
+<p>Enter y data coordinate:</p>
+<input type="text" name="data2"><br>
+ <input type="submit" value="Submit">
+</form></div>
+</div></li-->
+<li><a href="/bar">Bar Graph</a></li>
+<li><a href="/line">Line Graph</a></li>
+<li><a href="/scatterplot">Scatterplot</a></li>
+<li><a href="/radarchart">Radarchart</a></li>
+<li><a href="/bubble">Bubblechart</a></li>
+<li><a href="/stream">Streamgraph</a></li>
+</ul>
+</body>
+</html>
